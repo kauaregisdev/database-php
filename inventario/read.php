@@ -34,8 +34,8 @@
                                 <td><?= $line['email'];?></td>
                                 <td><?= $line['data_nasc'];?></td>
                                 <td><?= $line['telefone'];?></td>
-                                <td><a class="btn btn-primary" href="">Alterar</a></td>
-                                <td><a class="btn btn-danger" href="">Excluir</a></td>
+                                <td><a class="btn btn-primary" href="update.php?id=<?php echo $linha['codigo'];?>">Alterar</a></td>
+                                <td><a class="btn btn-danger" href="delete.php?id=<?php echo $linha['codigo'];?>">Excluir</a></td>
                             </tr>
                 <?php
                         }
